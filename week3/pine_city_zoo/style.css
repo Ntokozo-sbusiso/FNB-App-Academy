@@ -3,6 +3,16 @@ body{
      margin     : 0;
      font-family: Helvetica;
 }
+/*====================== BACK BOTTTUN ===============*/
+#back a{
+    position: fixed;
+    bottom: 50px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 12px;
+    color: azure;
+}
 /*====================== HEADER ===============*/
 #header{
       position: fixed;
@@ -115,4 +125,23 @@ a.info-box{
     float: right;
     margin-top: 25px;
     height: 40px;
+}
+
+/*====================== INFO-BOX-FULL ===============*/
+
+#info-box-full {
+    background: rgba(255,255,255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
 }
